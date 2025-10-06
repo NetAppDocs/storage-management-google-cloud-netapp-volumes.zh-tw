@@ -1,11 +1,11 @@
 ---
 indexpage:
   title: Google Cloud NetApp Volumes文檔
-  summary: Google Cloud NetApp Volumes使企業能夠在 Google 中遷移和運行其性能密集型和延遲敏感的核心業務關鍵型應用程序，而無需針對雲端進行重構。本文檔介紹如何使用NetApp控制台設定和管理Google
-    Cloud NetApp Volumes。
+  summary: Google Cloud NetApp Volumes使企業能夠在 Google 中遷移和運行其性能密集型和延遲敏感的核心業務關鍵型應用程序，而無需針對雲端進行重構。本文檔說明如何使用NetApp
+    Console設定和管理Google Cloud NetApp Volumes。
   keywords: Google Cloud NetApp Volumes, BlueXP, NetApp Console
-  lead: Google Cloud NetApp Volumes使企業能夠在 Google 中遷移和運行其性能密集型和延遲敏感的核心業務關鍵型應用程序，而無需針對雲端進行重構。本文檔介紹如何使用NetApp控制台設定和管理Google
-    Cloud NetApp Volumes。
+  lead: Google Cloud NetApp Volumes使企業能夠在 Google 中遷移和運行其性能密集型和延遲敏感的核心業務關鍵型應用程序，而無需針對雲端進行重構。本文檔說明如何使用NetApp
+    Console設定和管理Google Cloud NetApp Volumes。
   tiles:
   - title: 開始
     links:
@@ -21,7 +21,7 @@ indexpage:
     links:
     - title: NetApp社群
       url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: NetApp控制台博客
+    - title: NetApp Console博客
       url: https://cloud.netapp.com/blog
     - title: 雲端網路研討會
       url: https://cloud.netapp.com/events

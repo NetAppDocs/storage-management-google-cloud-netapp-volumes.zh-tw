@@ -16,7 +16,7 @@ summary: 設定係統後，您可以查看您的 Google Cloud NetApp磁碟區。
 [role="lead"]
 您可以查看現有磁碟區以及對其執行的任何操作。
 
-*所需的NetApp控制台角色* 組織管理員、資料夾或專案管理員，或Google Cloud NetApp Volumes管理員角色。 https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解所有服務的NetApp控制台存取角色"^] 。
+*所需的NetApp Console角色* 組織管理員、資料夾或專案管理員，或Google Cloud NetApp Volumes管理員角色。 https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解所有服務的NetApp Console存取角色"^] 。
 
 
 

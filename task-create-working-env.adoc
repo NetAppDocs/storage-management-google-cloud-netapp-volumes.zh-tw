@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-create-working-env.html 
 keywords: google cloud netapp volumes, google cloud, netapp cloud volumes, create netapp cloud volumes, discover netapp cloud volumes service for gcnv, cloud volumes service subscription, discover cloud volumes service subscription, discover region, allowed clients, netapp console 
-summary: 在NetApp控制台中新增 Netapp Volumes for Google Cloud 系統以檢視和管理磁碟區。 
+summary: 在NetApp Console中新增 Netapp Volumes for Google Cloud 系統以檢視和管理磁碟區。 
 ---
 = 新增Google Cloud NetApp Volumes系統
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 在NetApp控制台中新增 Netapp Volumes for Google Cloud 系統以�
 
 
 [role="lead"]
-設定服務帳戶後，在NetApp控制台中新增Google Cloud NetApp Volumes系統，以便您可以查看Google Cloud NetApp Volumes實例。
+設定服務帳戶後，在NetApp Console中新增Google Cloud NetApp Volumes系統，以便您可以查看Google Cloud NetApp Volumes實例。
 
 此訂閱的雲卷顯示在系統中。
 
@@ -29,7 +29,7 @@ NOTE: 如果您在多個 Google Cloud 專案中擁有訂閱和磁碟區，則需
 
 
 .步驟
-. 從NetApp控制台選單中，選擇“*儲存*”，然後選擇“*管理*”。
+. 從NetApp Console選單中，選擇“*儲存*”，然後選擇“*管理*”。
 . 在系統頁面上，選擇*新增系統*並選擇*Google Cloud Platform*。
 . 在 * Google Cloud NetApp Volumes* 旁邊，選擇 *Discover*。
 . 提供有關您的NetApp Volumes 訂閱的資訊：

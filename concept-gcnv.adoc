@@ -32,9 +32,9 @@ NetApp Volumes 有助於加快部署時間、管理工作負載和應用程式�
 
 == 成本
 
-Google Cloud NetApp Volumes建立的磁碟區將從您的服務訂閱中扣除費用，而不是透過NetApp Console 扣除。
+Google Cloud NetApp Volumes建立的磁碟區的費用將從您的服務訂閱中扣除，而不是透過NetApp Console收取。
 
-從NetApp控制台發現Google Cloud NetApp Volumes區域或磁碟區無需付費。
+從NetApp Console發現Google Cloud NetApp Volumes區域或磁碟區無需付費。
 
 
 
@@ -57,5 +57,5 @@ https://cloud.google.com/netapp/volumes/docs/discover/service-levels#supported_r
 == 相關連結
 
 * https://cloud.google.com/netapp/volumes/docs/discover/overview["Google Cloud NetApp Volumes文檔"^]
-* https://docs.netapp.com/us-en/data-services-copy-sync/index.html["NetApp控制台複製和同步文檔"^]
+* https://docs.netapp.com/us-en/data-services-copy-sync/index.html["NetApp Console複製和同步文檔"^]
 

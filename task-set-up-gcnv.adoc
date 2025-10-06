@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-set-up-gcnv.html 
 keywords: setup, set up, api, service account, requirements, permissions, google cloud netapp volumes, gcnv, bluexp. netapp console 
-summary: NetApp控制台需要透過 Google Cloud 服務帳戶存取Google Cloud NetApp Volumes API 並取得正確的權限。 
+summary: NetApp Console需要透過 Google Cloud 服務帳戶存取Google Cloud NetApp Volumes API 並獲得正確的權限。 
 ---
 = 設定Google Cloud NetApp Volumes
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: NetApp控制台需要透過 Google Cloud 服務帳戶存取Google Cloud
 
 
 [role="lead"]
-NetApp控制台需要透過 Google Cloud 服務帳戶取得正確的權限。
+NetApp Console需要透過 Google Cloud 服務帳戶取得正確的權限。
 
 
 
 == 設定服務帳戶
 
-完成以下任務，以便NetApp控制台可以存取您的 Google Cloud 專案：
+完成以下任務，以便NetApp Console可以存取您的 Google Cloud 專案：
 
 * 如果您還沒有服務帳戶，請建立一個新的。
 * 將服務帳戶成員新增至您的專案並為其指派特定的角色（權限）。
@@ -32,7 +32,7 @@ NetApp控制台需要透過 Google Cloud 服務帳戶取得正確的權限。
 . 點擊*選擇項目*，選擇您的項目，然後點擊*開啟*。
 . （可選）若要建立服務帳戶，請執行下列操作：
 +
-.. 按一下「建立服務帳戶」。
+.. 按一下*建立服務帳戶*。
 .. 輸入服務帳戶名稱（友善顯示名稱）和描述。
 +
 Google Cloud Console 根據此名稱產生服務帳戶 ID。如有必要，請編輯 ID - 您以後無法變更 ID。
