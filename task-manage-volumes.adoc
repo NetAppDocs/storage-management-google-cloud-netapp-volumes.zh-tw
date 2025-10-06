@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-manage-volumes.html 
+keywords: google cloud netapp volumes, view volumes 
+summary: 設定係統後，您可以查看您的 Google Cloud NetApp磁碟區。 
+---
+= 管理現有捲
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以查看現有磁碟區以及對其執行的任何操作。
+
+*所需的NetApp控制台角色* 組織管理員、資料夾或專案管理員，或Google Cloud NetApp Volumes管理員角色。 https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解所有服務的NetApp控制台存取角色"^] 。
+
+
+
+== 查看卷
+
+查看磁碟區的詳細信息，例如其名稱、數量、區域、容量、已使用容量和儲存池。
+
+.步驟
+. 點選*進入系統*開啟系統。
+. 若要查看表中的特定卷，請選擇image:icon_search.png["帶有三個點的圖示。"]並輸入卷名。
+. 若要查看與磁碟區關聯的任何標籤，請在「*標籤*」欄中選擇「*檢視*」。
+
+
+
+
+== 查看審核日誌
+
+您可以在時間軸中查看對磁碟區執行的所有操作。
+
+.步驟
+. 在右上角，選擇*設定*，然後選擇*時間軸*。
+
+
+.結果
+在*審計日誌*表中，您可以查看對卷執行的任何操作。

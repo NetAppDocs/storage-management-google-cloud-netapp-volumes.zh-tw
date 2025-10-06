@@ -1,0 +1,46 @@
+---
+settings:
+  name: Google Cloud NetApp Volumes
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: zh-tw,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn
+sidebar:
+  entries:
+  - title: Google Cloud NetApp Volumes
+    url: "/index.html"
+  - title: 發行說明
+    entries:
+    - title: 什麼是新的
+      url: "/whats-new.html"
+  - title: 開始
+    entries:
+    - title: 了解Google Cloud NetApp Volumes
+      url: "/concept-gcnv.html"
+    - title: 入門工作流程
+      url: "/task-quick-start.html"
+    - title: 設定 Google Cloud
+      url: "/task-set-up-gcnv.html"
+    - title: 新增系統
+      url: "/task-create-working-env.html"
+  - title: 使用Google Cloud NetApp Volumes
+    entries:
+    - title: 管理磁碟區
+      url: "/task-manage-volumes.html"
+    - title: 刪除Google Cloud NetApp Volumes
+      url: "/task-remove-working-env.html"
+  - title: 知識和支持
+    entries:
+    - title: 註冊以獲得支持
+      url: "/task-support-registration.html"
+    - title: 獲取協助
+      url: "/task-get-help.html"
+  - title: 法律聲明
+    url: "/legal-notices.html"
+product-family:
+  name: Storage Management
+  repo: storage-management-family

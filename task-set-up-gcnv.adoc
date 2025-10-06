@@ -1,0 +1,71 @@
+---
+sidebar: sidebar 
+permalink: task-set-up-gcnv.html 
+keywords: setup, set up, api, service account, requirements, permissions, google cloud netapp volumes, gcnv, bluexp. netapp console 
+summary: NetApp控制台需要透過 Google Cloud 服務帳戶存取Google Cloud NetApp Volumes API 並取得正確的權限。 
+---
+= 設定Google Cloud NetApp Volumes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp控制台需要透過 Google Cloud 服務帳戶取得正確的權限。
+
+
+
+== 設定服務帳戶
+
+完成以下任務，以便NetApp控制台可以存取您的 Google Cloud 專案：
+
+* 如果您還沒有服務帳戶，請建立一個新的。
+* 將服務帳戶成員新增至您的專案並為其指派特定的角色（權限）。
+* 為用於向 Google 進行身份驗證的服務帳戶建立並下載金鑰對。
+
+
+.步驟
+. 在 Google Cloud 控制台中， https://console.cloud.google.com/iam-admin/serviceaccounts["前往服務帳戶頁面"^] 。
+. 點擊*選擇項目*，選擇您的項目，然後點擊*開啟*。
+. （可選）若要建立服務帳戶，請執行下列操作：
++
+.. 按一下「建立服務帳戶」。
+.. 輸入服務帳戶名稱（友善顯示名稱）和描述。
++
+Google Cloud Console 根據此名稱產生服務帳戶 ID。如有必要，請編輯 ID - 您以後無法變更 ID。
+
+.. 若要立即設定存取控制，請按一下頁面底部的“建立”然後按一下“完成”，然後繼續下一步。
+
+
+. 在「IAM 頁面」中按一下「新增」並填寫「新增成員」頁面中的欄位：
++
+.. 在新成員欄位中，輸入完整服務帳號 ID。
++
+例如：\user1-service-account-gcnv@project1.iam.gserviceaccount.com
+
+.. 新增以下角色之一：
++
+*** _Google Cloud NetApp Volumes Admin_ 或
+*** Google Cloud NetApp磁碟區檢視器
+
+
+.. 點選“儲存”。
+
+
+. 按一下服務帳戶名稱，然後從“服務帳戶詳細資料”頁面中按一下“新增金鑰”，然後按一下“建立新金鑰”。
+. 選擇 *JSON* 作為金鑰類型，然後按一下 *建立*。
++
+透過點擊*建立*，您的新公鑰/私鑰對將產生並下載到您的系統。它是私鑰的唯一副本。安全地儲存此文件，因為它可用於驗證您的服務帳戶。
+
+
+
+詳細步驟請參考Google Cloud文件：
+
+* link:https://cloud.google.com/iam/docs/roles-permissions/netapp["Google Cloud NetApp Volumes角色與權限"^]
+* link:https://cloud.google.com/iam/docs/creating-managing-service-accounts["建立和管理服務帳戶"^]
+* link:https://cloud.google.com/iam/docs/granting-changing-revoking-access["授予、變更和撤銷對資源的存取權限"^]
+* link:https://cloud.google.com/iam/docs/creating-managing-service-account-keys["建立和管理服務帳戶金鑰"^]
+

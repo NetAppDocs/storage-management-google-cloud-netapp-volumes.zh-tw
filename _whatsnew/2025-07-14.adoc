@@ -1,0 +1,14 @@
+= BlueXP支援Google Cloud NetApp Volumes
+:allow-uri-read: 
+
+
+
+
+=== BlueXP支援Google Cloud NetApp Volumes
+
+現在您可以直接從BlueXP管理Google Cloud NetApp Volumes ：
+
+* 新增工作環境。
+* 查看卷。
+* 刪除工作環境。
+
