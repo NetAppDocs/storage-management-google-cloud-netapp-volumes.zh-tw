@@ -326,5 +326,5 @@
   <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
   <block id="ae46228bf9fe5984c921b22fe508c260" category="admonition">要開始使用Google Cloud NetApp Volumes，您必須擁有適當的權限以及指派給您的Google Cloud NetApp Volumes管理員或 Google Cloud NetApp檢視器角色。<block ref="8d054a08e0e901ba9c326f172eb3627b" category="inline-link-rx"></block>。</block>
   <block id="1082b67e395cc89d61a139c7ce68374f" category="inline-image-macro">Google Cloud NetApp Volumes角色的螢幕截圖。</block>
-  <block id="5e1fff1994471918bffba58a3b5795c0" category="paragraph">+ <block ref="c1718ab208b6eab475574a990a36a0b8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c1718ab208b6eab475574a990a36a0b8" category="paragraph"><block ref="c1718ab208b6eab475574a990a36a0b8" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

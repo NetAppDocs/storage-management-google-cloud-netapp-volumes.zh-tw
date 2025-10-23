@@ -1,7 +1,6 @@
 ---
 settings:
   name: Google Cloud NetApp Volumes
-  platform: cloud
   internal:
     pdf_enabled: true
   prod:
