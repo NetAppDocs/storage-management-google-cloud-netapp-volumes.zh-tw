@@ -75,8 +75,6 @@
   <block id="98061d4b41ea7e9a2f4ca7bbd84f29b8" category="list-text">選擇您的 Google Cloud 項目的名稱。</block>
   <block id="f3ca406bfb989e28376bbf8a5b5484a0" category="list-text">選擇您想要建立系統的區域。該區域必須是Google Cloud NetApp Volumes支援的區域之一。</block>
   <block id="6717014f0e48b7ab08c9846925b42c93" category="list-text">選擇*發現*。</block>
-  <block id="4f89df11c9b6b2ee89c887a99d93c72b" category="inline-image-macro">新增Google Cloud NetApp Volumes訂閱憑證的螢幕截圖。</block>
-  <block id="d7439065551300ab23be3871e7bbaff4" category="paragraph"><block ref="d7439065551300ab23be3871e7bbaff4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
   <block id="cc10d5a46ec06569ffd9f26841caf349" category="paragraph">控制台顯示您的Google Cloud NetApp Volumes系統。</block>
   <block id="72e98fedf2831ff5588e49fd708c44cd" category="inline-image-macro">Google Cloud NetApp Volumes Service 系統的螢幕截圖。</block>
@@ -307,7 +305,6 @@
   <block id="40b96cc305f26bed96812c2920065f5d" category="sidebar">設定 Google Cloud</block>
   <block id="f6c5aff43e91755ba26b1cc527f1f13e" category="sidebar">刪除Google Cloud NetApp Volumes</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識和支持</block>
-  <block id="e9f08d0e191bafa455f6b22b7db9fb1c" category="admonition">要開始使用Google Cloud NetApp Volumes，您必須指派適當的權限和角色。所需的NetApp Console角色是組織管理員、資料夾或專案管理員，或Google Cloud NetApp Volumes管理員角色。<block ref="8d054a08e0e901ba9c326f172eb3627b" category="inline-link-rx"></block> 。</block>
   <block id="4aa58a21c5f509f1480d288c069c6836" category="paragraph">*所需的NetApp Console角色* 組織管理員、資料夾或專案管理員，或Google Cloud NetApp Volumes管理員角色。<block ref="8d054a08e0e901ba9c326f172eb3627b" category="inline-link-rx"></block> 。</block>
   <block id="061e2fc87acc098c8f7a940bbb44fb2a" category="paragraph">完成以下任務，以便NetApp Console可以存取您的 Google Cloud 專案。</block>
   <block id="913de1bf08a6316fa527cd3eea7e91ef" category="list-text">在共享項目中授予 IAM 角色。</block>
@@ -327,4 +324,7 @@
   <block id="46e1e93f6914b7f839eb907c33be43d8" category="list-text">在「新主體」欄位中，輸入您的服務帳戶的電子郵件地址。</block>
   <block id="fb913d100c319ea641fe10be8ad12e03" category="list-text">從選擇角色下拉選單中，選擇Google Cloud NetApp Volumes管理員角色。</block>
   <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
+  <block id="ae46228bf9fe5984c921b22fe508c260" category="admonition">要開始使用Google Cloud NetApp Volumes，您必須擁有適當的權限以及指派給您的Google Cloud NetApp Volumes管理員或 Google Cloud NetApp檢視器角色。<block ref="8d054a08e0e901ba9c326f172eb3627b" category="inline-link-rx"></block>。</block>
+  <block id="1082b67e395cc89d61a139c7ce68374f" category="inline-image-macro">Google Cloud NetApp Volumes角色的螢幕截圖。</block>
+  <block id="5e1fff1994471918bffba58a3b5795c0" category="paragraph">+ <block ref="c1718ab208b6eab475574a990a36a0b8" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

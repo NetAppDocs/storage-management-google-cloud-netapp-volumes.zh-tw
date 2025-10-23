@@ -40,9 +40,6 @@ NOTE: 如果您在多個 Google Cloud 專案中擁有訂閱和磁碟區，則需
 .. 選擇您的 Google Cloud 項目的名稱。
 .. 選擇您想要建立系統的區域。該區域必須是Google Cloud NetApp Volumes支援的區域之一。
 .. 選擇*發現*。
-+
-image:screenshot_create_environment.png["新增Google Cloud NetApp Volumes訂閱憑證的螢幕截圖。"]
-
 
 
 
