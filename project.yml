@@ -1,13 +1,13 @@
 ---
 settings:
   name: Google Cloud NetApp Volumes
+  release_notes_autogen:
+    release_notes_repo: console-relnotes
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: false
-    release_notes_autogen:
-      release_notes_repo: console-relnotes
   rss_page: whats-new.html
   langs: zh-tw,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn
 sidebar:
