@@ -19,8 +19,7 @@ NetApp Console需要透過 Google Cloud 服務帳戶取得正確的權限。
 完成以下任務，以便NetApp Console可以存取您的 Google Cloud 專案。
 
 * 如果您還沒有服務帳戶，請建立一個新的。
-* 將服務帳戶成員新增至您的專案並為其指派特定的角色（權限）。
-* 為用於向 Google 進行身份驗證的服務帳戶建立並下載金鑰對。
+* 允許冒充他人存取。
 * 在共享項目中授予 IAM 角色。
 
 
@@ -30,49 +29,18 @@ NetApp Console需要透過 Google Cloud 服務帳戶取得正確的權限。
 
 . 在 Google Cloud 控制台中， https://console.cloud.google.com/iam-admin/serviceaccounts["前往服務帳戶頁面"^] 。
 . 點擊*選擇項目*，選擇您的項目，然後點擊*開啟*。
-. （可選）若要建立服務帳戶，請執行下列操作：
+. 若要建立服務帳戶，請執行下列操作：
 +
 .. 按一下*建立服務帳戶*。
 .. 輸入服務帳戶名稱（友善顯示名稱）和描述。
 +
 Google Cloud Console 根據此名稱產生服務帳戶 ID。如有必要，請編輯 ID - 您以後無法變更 ID。
 
-.. 若要立即設定存取控制，請按一下頁面底部的“建立”然後按一下“完成”，然後繼續下一步。
-
-
-
-
-
-
-== 建立並下載金鑰對
-
-. 在 https://console.cloud.google.com/iam-admin/serviceaccounts["服務帳戶頁面"^]，找到並點選服務帳戶名稱。
-. 在“服務帳戶詳細資料”頁面中，按一下“新增金鑰”，然後按一下“建立新金鑰”。
-. 選擇 *JSON* 作為金鑰類型，然後按一下 *建立*。
-+
-透過點擊*建立*，您的新公鑰/私鑰對將產生並下載到您的系統。它是私鑰的唯一副本。安全地儲存此文件，因為它可用於驗證您的服務帳戶。
-
-
-
-
-
-== 新增服務帳戶成員
-
-. 登入 https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html["NetApp Console"]。
-. 選擇*管理*，然後選擇*身分和存取*。
-. 點擊“新增”並填寫“新增成員”頁面中的欄位：
-+
-.. 在新成員欄位中，輸入完整服務帳號 ID。
-+
-例如：\user1-service-account-gcnv@project1.iam.gserviceaccount.com
-
-.. 新增以下角色之一：
-+
-*** _Google Cloud NetApp Volumes Admin_ 或
-*** Google Cloud NetApp磁碟區檢視器
-
-
-.. 點選“儲存”。
+.. 點擊“創建並繼續”。
+.. 從角色清單中，選擇 * Google Cloud NetApp Volumes管理員* 或 *Google Cloud NetApp檢視者* 角色。
+.. 選擇*繼續*。
+.. 授予此服務帳戶模擬存取權限：credentials-sa@wf-production-netapp.iam.gserviceaccount.com。有關詳細信息，請參閱 https://cloud.google.com/iam/docs/create-short-lived-credentials-direct#sa-credentials-jwt["建立自簽名 JSON Web Token (JWT)"^]。
+.. 點擊頁面底部的「完成」按鈕，然後繼續下一步。
 
 
 
@@ -86,14 +54,26 @@ Google Cloud Console 根據此名稱產生服務帳戶 ID。如有必要，請�
 . 在_IAM 頁面_中，從專案下拉選單中選擇共用 VPC 主機專案。
 . 按一下“新增主體”。
 . 在「新主體」欄位中，輸入您的服務帳戶的電子郵件地址。
-. 從選擇角色下拉選單中，選擇Google Cloud NetApp Volumes管理員角色。
+. 從「選擇角色」下拉式選單中，選擇「* Google Cloud NetApp Volumes管理員*」角色。
 . 點選“儲存”。
 
 
 詳細步驟請參考Google Cloud文件：
 
-* link:https://cloud.google.com/iam/docs/roles-permissions/netapp["Google Cloud NetApp Volumes角色與權限"^]
 * link:https://cloud.google.com/iam/docs/creating-managing-service-accounts["建立和管理服務帳戶"^]
+* link:https://cloud.google.com/iam/docs/roles-permissions/netapp["Google Cloud NetApp Volumes角色與權限"^]
 * link:https://cloud.google.com/iam/docs/granting-changing-revoking-access["授予、變更和撤銷對資源的存取權限"^]
-* link:https://cloud.google.com/iam/docs/creating-managing-service-account-keys["建立和管理服務帳戶金鑰"^]
 
+
+
+
+== 故障排除
+
+如果遇到錯誤，可能會強制執行 *iam.disableCrossProjectServiceAccountUsage* 政策。若要解決此問題，請執行下列操作：
+
+. 在 Google Cloud 控制台中，前往 https://console.cloud.google.com/iam-admin/orgpolicies["組織政策頁面"^]。
+. 找到「停用跨專案服務帳戶使用」策略並將其停用。
+
+
+.下一步是什麼？
+link:task-add-roles.html["指派Google Cloud NetApp Volumes角色"]。

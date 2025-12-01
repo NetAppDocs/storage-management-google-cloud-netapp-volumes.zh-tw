@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: task-add-roles.html 
+keywords: setup, set up, add role, requirements, permissions, google cloud netapp volumes, gcnv, bluexp. netapp console 
+summary: NetApp Console需要為成員指派正確的角色。 
+---
+= 指派Google Cloud NetApp Volumes角色
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+要開始使用Google Cloud NetApp Volumes，您必須在NetApp Console中為成員指派正確的角色。有關詳細信息，請參閱link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解所有服務的NetApp Console存取角色"^]。
+
+
+
+== 為服務帳戶成員指派角色
+
+. 登入 https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html["NetApp Console"^]。
+. 選擇*管理*，然後選擇*身分和存取*。
+. 選擇操作選單image:screenshot_gallery_options.gif["帶有三個點的圖示。"]在要指派角色的成員旁邊，選擇「新增角色」。
+. 若要新增角色，請完成對話方塊中的步驟：
++
+.. 選擇資料夾或項目：選擇成員應具有權限的資源層次結構層級。
++
+如果選擇資料夾，則該成員擁有對該資料夾內所有內容的存取權限。
+
+.. 從「類別」下拉式選單中選擇「應用程式」角色類別。https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解訪問角色"^]。
+.. 從「角色」下拉式選單中，選擇一個角色，該角色將授予成員對與您選擇的資料夾或項目關聯的資源的權限。
++
+*Important:* 您必須新增以下一個或兩個角色：
+
++
+*** Google Cloud NetApp Volumes 管理員
+*** Google Cloud NetApp Volumes 檢視器
+
+
+.. 新增角色：如果您想提供組織內其他資料夾或項目的存取權限，請選擇“新增角色”，指定另一個資料夾、專案或角色類別，然後選擇角色類別和相應的角色。
+
+
+. 選擇*新增角色*。
+
+
+.下一步是什麼？
+link:task-create-working-env.html["新增Google Cloud NetApp Volumes系統"]。

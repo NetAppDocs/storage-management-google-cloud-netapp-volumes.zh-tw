@@ -24,7 +24,7 @@ NOTE: 如果您在多個 Google Cloud 專案中擁有訂閱和磁碟區，則需
 .開始之前
 為每個項目新增訂閱時，您必須提供以下資訊：
 
-* 服務帳戶憑證（您下載的 JSON 私鑰）
+* Google 服務帳戶電子郵件地址
 * 項目名稱
 
 
@@ -35,10 +35,10 @@ NOTE: 如果您在多個 Google Cloud 專案中擁有訂閱和磁碟區，則需
 . 提供有關您的NetApp Volumes 訂閱的資訊：
 +
 .. 輸入您想要使用的系統名稱。
-.. 複製/貼上您在前面步驟中下載的 JSON 私鑰。
-.. 選擇*應用憑證*。
-.. 選擇您的 Google Cloud 項目的名稱。
-.. 選擇您想要建立系統的區域。該區域必須是Google Cloud NetApp Volumes支援的區域之一。
+.. 貼上關聯的 Google 服務帳戶電子郵件地址：credentials-sa@wf-production-netapp.iam.gserviceaccount.com。
+.. 選擇“套用憑證”以檢索項目名稱和區域。
+.. 從「*專案名稱*」中選擇您的 Google Cloud 專案的名稱。
+.. 從「區域」中選擇要建立系統的區域。該區域必須是Google Cloud NetApp Volumes支援的區域之一。
 .. 選擇*發現*。
 
 

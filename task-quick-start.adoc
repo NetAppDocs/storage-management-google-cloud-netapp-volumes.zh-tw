@@ -20,6 +20,10 @@ summary: 透過設定 Google Cloud 然後建立系統來開始使用Google Cloud
 [role="quick-margin-para"]
 從 Google 建立一個服務帳戶。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"] link:task-create-working-env.html["新增系統"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"] link:task-add-roles.html["分配角色"]
+[role="quick-margin-para"]
+在NetApp Console中，為成員指派正確的角色。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三"] link:task-create-working-env.html["新增系統"]
 [role="quick-margin-para"]
 在NetApp Console中，按一下 *新增系統*，然後按一下 *Google Cloud Platform*，然後按一下 * Google Cloud NetApp Volumes*，然後按一下 *發現*。提供有關服務帳戶和 Google Cloud 項目的詳細資訊。

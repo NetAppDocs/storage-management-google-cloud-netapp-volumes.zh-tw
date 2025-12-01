@@ -1,0 +1,11 @@
+= Google Cloud Platform 憑證變更
+:allow-uri-read: 
+
+
+
+
+=== Google Cloud Platform 憑證變更
+
+隨著客戶設定和授權的Google Cloud NetApp Volumes系統越來越多，憑證的管理方式也改變了。
+
+NetApp Volumes 系統憑證現在儲存在 Google 雲端後端，例如 Cloud Key Management 服務或類似服務，在建立新系統時會使用服務帳戶來模擬憑證。
