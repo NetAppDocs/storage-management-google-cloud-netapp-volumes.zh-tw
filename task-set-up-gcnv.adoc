@@ -40,6 +40,9 @@ Google Cloud Console 根據此名稱產生服務帳戶 ID。如有必要，請�
 .. 從角色清單中，選擇 * Google Cloud NetApp Volumes管理員* 或 *Google Cloud NetApp檢視者* 角色。
 .. 選擇*繼續*。
 .. 授予此服務帳戶模擬存取權限：credentials-sa@wf-production-netapp.iam.gserviceaccount.com。有關詳細信息，請參閱 https://cloud.google.com/iam/docs/create-short-lived-credentials-direct#sa-credentials-jwt["建立自簽名 JSON Web Token (JWT)"^]。
++
+NetApp擁有的服務帳戶用於要求一個短期存取令牌，該令牌允許您以該服務帳戶的身分進行操作，而無需存取其私鑰。
+
 .. 點擊頁面底部的「完成」按鈕，然後繼續下一步。
 
 

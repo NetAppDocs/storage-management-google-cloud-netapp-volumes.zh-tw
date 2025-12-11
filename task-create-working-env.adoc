@@ -35,7 +35,7 @@ NOTE: 如果您在多個 Google Cloud 專案中擁有訂閱和磁碟區，則需
 . 提供有關您的NetApp Volumes 訂閱的資訊：
 +
 .. 輸入您想要使用的系統名稱。
-.. 貼上關聯的 Google 服務帳戶電子郵件地址：credentials-sa@wf-production-netapp.iam.gserviceaccount.com。
+.. 貼上關聯的 Google 服務帳戶電子郵件地址。有關詳細信息，請參閱link:task-set-up-gcnv.html["設定服務帳戶"]。
 .. 選擇“套用憑證”以檢索項目名稱和區域。
 .. 從「*專案名稱*」中選擇您的 Google Cloud 專案的名稱。
 .. 從「區域」中選擇要建立系統的區域。該區域必須是Google Cloud NetApp Volumes支援的區域之一。

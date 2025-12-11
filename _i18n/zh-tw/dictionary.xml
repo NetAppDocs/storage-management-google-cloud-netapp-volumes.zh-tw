@@ -320,7 +320,6 @@
   <block id="a09853f10b1e18c9e2f541f7e1763305" category="list-text">選擇*新增角色*。</block>
   <block id="24a2cf89a7e8654a8dd82b3e847a2f3f" category="paragraph"><block ref="353eff4e723ce60125e1af61cf4ff726" category="inline-link-macro-rx"></block>。</block>
   <block id="ab1dab4c743d79632ef6d8713763e8d2" category="list-text">Google 服務帳戶電子郵件地址</block>
-  <block id="d584bbe3e0a94b8fa857891d1712d7ab" category="list-text">貼上關聯的 Google 服務帳戶電子郵件地址：credentials-sa@wf-production-netapp.iam.gserviceaccount.com。</block>
   <block id="53b4170efa88b9e39c22f67a2c5c13da" category="list-text">選擇“套用憑證”以檢索項目名稱和區域。</block>
   <block id="7de846f0f4d481f8d5514f7cd985147d" category="list-text">從「*專案名稱*」中選擇您的 Google Cloud 專案的名稱。</block>
   <block id="035a4567c3372192964d63db5f9bdd6e" category="list-text">從「區域」中選擇要建立系統的區域。該區域必須是Google Cloud NetApp Volumes支援的區域之一。</block>
@@ -347,4 +346,6 @@
   <block id="8a5b2584efd2f1954d10a5072e5491dd" category="paragraph"><block ref="61e83af22a007916f84f7c17f5833a9d" category="inline-link-macro-rx"></block>。</block>
   <block id="815e75619b370a1b845eccec6979ed74" category="section-title">2025年11月27日</block>
   <block id="8372655369d67acc7142b2e8d34f9af7" category="sidebar">移除捲</block>
+  <block id="5b20dcb4d6ead9fcf4ad79a3f32c603e" category="list-text">貼上關聯的 Google 服務帳戶電子郵件地址。有關詳細信息，請參閱<block ref="2a10bb8ea1c6c9896523c5c7efdb9ddd" category="inline-link-macro-rx"></block>。</block>
+  <block id="063d962f8b06a3e8ff542497811b0109" category="paragraph">NetApp擁有的服務帳戶用於要求一個短期存取令牌，該令牌允許您以該服務帳戶的身分進行操作，而無需存取其私鑰。</block>
 </blocks>
