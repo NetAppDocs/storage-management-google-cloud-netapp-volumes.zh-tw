@@ -18,7 +18,7 @@ indexpage:
     - title: 管理磁碟區
       url: task-manage-volumes.html
     - title: 移除捲
-      url: task-remove-working-env.html
+      url: task-remove-system.html
   - title: 部落格和社區
     links:
     - title: NetApp Console
