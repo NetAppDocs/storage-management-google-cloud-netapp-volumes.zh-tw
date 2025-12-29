@@ -2,50 +2,7 @@
 permalink: task-create-working-env.html 
 redirect: storage-management-google-cloud-netapp-volumes/task-create-system.html 
 ---
-= 新增Google Cloud NetApp Volumes系統
-:hardbreaks:
+= 
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ./media/
 
 
-[role="lead"]
-設定服務帳戶後，在NetApp Console中新增Google Cloud NetApp Volumes系統，以便您可以查看Google Cloud NetApp Volumes實例。
-
-此訂閱的雲卷顯示在系統中。
-
-
-NOTE: 如果您在多個 Google Cloud 專案中擁有訂閱和磁碟區，則需要為每個專案執行此任務。
-
-.開始之前
-為每個項目新增訂閱時，您必須提供以下資訊：
-
-* Google 服務帳戶電子郵件地址
-* 項目名稱
-
-
-.步驟
-. 從NetApp Console選單中，選擇“*儲存*”，然後選擇“*管理*”。
-. 在系統頁面上，選擇*新增系統*並選擇*Google Cloud Platform*。
-. 在 * Google Cloud NetApp Volumes* 旁邊，選擇 *Discover*。
-. 提供有關您的NetApp Volumes 訂閱的資訊：
-+
-.. 輸入您想要使用的系統名稱。
-.. 貼上關聯的 Google 服務帳戶電子郵件地址。有關詳細信息，請參閱link:task-set-up-gcnv.html["設定服務帳戶"]。
-.. 選擇“套用憑證”以檢索項目名稱和區域。
-.. 從「*專案名稱*」中選擇您的 Google Cloud 專案的名稱。
-.. 從「區域」中選擇要建立系統的區域。該區域必須是Google Cloud NetApp Volumes支援的區域之一。
-.. 選擇*發現*。
-
-
-
-
-.結果
-控制台顯示您的Google Cloud NetApp Volumes系統。
-
-image:screenshot_gcnv_environment.png["Google Cloud NetApp Volumes Service 系統的螢幕截圖。"]
-
-.下一步是什麼？
-link:task-manage-volumes.html["查看您的捲"] 。

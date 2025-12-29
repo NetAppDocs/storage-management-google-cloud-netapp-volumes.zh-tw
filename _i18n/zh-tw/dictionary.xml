@@ -318,7 +318,6 @@
   <block id="68b5a483d6fcf76e4c38e6c4a401ef56" category="list-text">Google Cloud NetApp Volumes 檢視器</block>
   <block id="75a4a42dcdb6ed59e56039807b8e36fe" category="list-text">新增角色：如果您想提供組織內其他資料夾或項目的存取權限，請選擇“新增角色”，指定另一個資料夾、專案或角色類別，然後選擇角色類別和相應的角色。</block>
   <block id="a09853f10b1e18c9e2f541f7e1763305" category="list-text">選擇*新增角色*。</block>
-  <block id="24a2cf89a7e8654a8dd82b3e847a2f3f" category="paragraph"><block ref="353eff4e723ce60125e1af61cf4ff726" category="inline-link-macro-rx"></block>。</block>
   <block id="ab1dab4c743d79632ef6d8713763e8d2" category="list-text">Google 服務帳戶電子郵件地址</block>
   <block id="53b4170efa88b9e39c22f67a2c5c13da" category="list-text">選擇“套用憑證”以檢索項目名稱和區域。</block>
   <block id="7de846f0f4d481f8d5514f7cd985147d" category="list-text">從「*專案名稱*」中選擇您的 Google Cloud 專案的名稱。</block>
@@ -328,7 +327,6 @@
   <block id="202fff1a22ad6746f62f817c50162005" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="7636ea90210cd657bcc56955b4579566" category="inline-link-macro-rx"></block></block>
   <block id="aaea90d2749395beb16f5340fe5cc964" category="paragraph">在NetApp Console中，為成員指派正確的角色。</block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">三</block>
-  <block id="6d60931e1d27fdf57f2023f84b071c1f" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> <block ref="a2c0cfbb3ea0086835b60f39a97a2a3a" category="inline-link-macro-rx"></block></block>
   <block id="119cf90c9716f71114dbe3b9e13911b6" category="list-text">允許冒充他人存取。</block>
   <block id="427af8bd46f9b056f4a0a09ce41c9a34" category="list-text">若要建立服務帳戶，請執行下列操作：</block>
   <block id="1483d48ab7fa569ffd416726e76ecf2d" category="list-text">點擊“創建並繼續”。</block>
@@ -348,4 +346,6 @@
   <block id="8372655369d67acc7142b2e8d34f9af7" category="sidebar">移除捲</block>
   <block id="5b20dcb4d6ead9fcf4ad79a3f32c603e" category="list-text">貼上關聯的 Google 服務帳戶電子郵件地址。有關詳細信息，請參閱<block ref="2a10bb8ea1c6c9896523c5c7efdb9ddd" category="inline-link-macro-rx"></block>。</block>
   <block id="063d962f8b06a3e8ff542497811b0109" category="paragraph">NetApp擁有的服務帳戶用於要求一個短期存取令牌，該令牌允許您以該服務帳戶的身分進行操作，而無需存取其私鑰。</block>
+  <block id="ef9cb6cefb83593bb2298c3273f71497" category="paragraph"><block ref="b07a2136d7ec74e37b5d674038989f9e" category="inline-link-macro-rx"></block>。</block>
+  <block id="e2b9b963de5a574643448d4341ba095d" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> <block ref="f17c135087ba7331aa786fe747b034f4" category="inline-link-macro-rx"></block></block>
 </blocks>
