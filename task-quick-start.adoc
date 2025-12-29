@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-quick-start.html 
-keywords: set up google cloud netapp volumes, quick start 
+keywords: set up google cloud netapp volumes, quick start,system 
 summary: 透過設定 Google Cloud 然後建立系統來開始使用Google Cloud NetApp Volumes 。 
 ---
 = 入門工作流程

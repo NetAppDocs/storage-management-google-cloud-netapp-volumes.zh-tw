@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-remove-system.html 
-keywords: remove working environment, delete working environment, remove system, delete system, remove google cloud netapp volumes, remove, delete 
+keywords: remove working environment, delete working environment, remove system, delete system, remove google cloud netapp volumes, remove, delete, delete google cloud netapp volumes 
 summary: 您可以從NetApp Console中刪除Google Cloud NetApp Volumes for Google Cloud 訂閱和所有現有磁碟區。此操作將從NetApp Console中刪除Google Cloud NetApp Volumes。它不會刪除您的Google Cloud NetApp Volumes帳戶或磁碟區。您可以隨時將Google Cloud NetApp Volumes新增回NetApp Console。 
 ---
 = 從NetApp Console中刪除Google Cloud NetApp Volumes
