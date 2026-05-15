@@ -232,7 +232,6 @@
   <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">在控制台的右上角，選擇「幫助」圖標，然後選擇「*支援*」。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">從支援註冊頁面找到您的帳戶 ID 序號。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">幫助選單的螢幕截圖，其中支援是第一個選項</block>
-  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp 的支援註冊網站</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">導航至<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block>並選擇*我不是註冊的NetApp客戶*。</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填寫必填欄位（帶有紅色星號的欄位）。</block>
@@ -255,7 +254,6 @@
   <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">這些 NSS 憑證與您的特定控制台帳戶 ID 相關聯。屬於控制台組織的使用者可以從*支援 &gt; NSS 管理*存取這些憑證。</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您有客戶級帳戶，則可以新增一個或多個 NSS 帳戶。</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您有合作夥伴或經銷商帳戶，則可以新增一個或多個 NSS 帳戶，但不能與客戶級帳戶一起新增。</block>
-  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">選擇*NSS 管理 &gt; 新增 NSS 帳號*。</block>
   <block id="85b9386ed443776127e099931d73448a" category="list-text">當出現提示時，選擇「*繼續*」以重新導向至 Microsoft 登入頁面。</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp使用 Microsoft Entra ID 作為特定於支援和授權的身份驗證服務的身份提供者。</block>
@@ -267,8 +265,6 @@
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您已有客戶級 NSS 帳戶並嘗試新增合作夥伴級帳戶，情況也是如此。</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登入後， NetApp將儲存 NSS 使用者名稱。</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">三個水平點的圖標</block>
-  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">這是系統產生的映射到您的電子郵件的 ID。在*NSS 管理*頁面上，您可以顯示來自<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜單。</block>
-  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要刷新登入憑證令牌，還有一個*更新憑證*選項<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜單。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此選項會提示您再次登入。請注意，這些帳戶的令牌將在 90 天後過期。我們將發布通知來提醒您此事。</block>
   <block id="a970e07804599229aa5234eab66f5ddf" category="summary">了解NetApp Console中Google Cloud NetApp Volumes支援的新功能。</block>
   <block id="490414e0366b091220802d406e52c076" category="doc">什麼是新的</block>
@@ -284,7 +280,6 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">發行說明</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">什麼是新的</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識和支持</block>
-  <block id="061e2fc87acc098c8f7a940bbb44fb2a" category="paragraph">完成以下任務，以便NetApp Console可以存取您的 Google Cloud 專案。</block>
   <block id="913de1bf08a6316fa527cd3eea7e91ef" category="list-text">在共享項目中授予 IAM 角色。</block>
   <block id="3c031b939f6ec312ee601d021e7a6644" category="inline-link">NetApp Console</block>
   <block id="32b6c123fa99d96b6a9c161ccb30c98d" category="list-text">選擇*管理*，然後選擇*身分和存取*。</block>
@@ -348,4 +343,14 @@
   <block id="063d962f8b06a3e8ff542497811b0109" category="paragraph">NetApp擁有的服務帳戶用於要求一個短期存取令牌，該令牌允許您以該服務帳戶的身分進行操作，而無需存取其私鑰。</block>
   <block id="ef9cb6cefb83593bb2298c3273f71497" category="paragraph"><block ref="b07a2136d7ec74e37b5d674038989f9e" category="inline-link-macro-rx"></block>。</block>
   <block id="e2b9b963de5a574643448d4341ba095d" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> <block ref="f17c135087ba7331aa786fe747b034f4" category="inline-link-macro-rx"></block></block>
+  <block id="bc50bdbbe9eebcafb5a89e4937b64930" category="paragraph">完成以下任務，以便 NetApp Console 可以存取您的 Google Cloud 專案。</block>
+  <block id="14dc48e71eab5d4363962d97e67ff36b" category="inline-link-macro">已安裝 Google Cloud CLI</block>
+  <block id="d05cb8786da48742a649e7ed3452a9e8" category="admonition">您可以使用 Google Cloud 控制台或 gcloud CLI 來完成這些任務。要使用 gcloud CLI，您必須先<block ref="f025a0ccf03842ca78dff4a4ad773f80" category="inline-link-macro-rx"></block>。</block>
+  <block id="00a84e764d274854df1000b5bf60496e" category="paragraph">或者，您可以使用 gcloud CLI 來指派角色：</block>
+  <block id="c7909f53a979cc8f835a731d40230734" category="paragraph">或者，您可以使用 gcloud CLI 授予模擬存取權：</block>
+  <block id="8e2d1bdc9d1228839b202b5864bba9fd" category="paragraph">或者，您可以使用 gcloud CLI 來新增 IAM 策略繫結：</block>
+  <block id="38fc1b337c0ea26463916fc2913205c1" category="paragraph"><block ref="38fc1b337c0ea26463916fc2913205c1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7019a39846e9a2c7f7a80eaba91e4a41" category="paragraph"><block ref="7019a39846e9a2c7f7a80eaba91e4a41" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">這是系統產生的與您的電子郵件地址對應的 ID。您可以在 *NSS Management* 頁面的 <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 選單中找到您的電子郵件地址。</block>
+  <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">如果您需要刷新登入憑證令牌，<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 選單中還有一個「更新憑證」選項。</block>
 </blocks>
