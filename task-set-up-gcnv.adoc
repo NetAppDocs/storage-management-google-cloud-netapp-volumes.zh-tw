@@ -30,6 +30,9 @@ NOTE: 您可以使用 Google Cloud 控制台或 gcloud CLI 來完成這些任務
 
 == 設定服務帳戶
 
+
+NOTE: Google Cloud 專案權限變更可能需要幾分鐘才能生效。
+
 . 在 Google Cloud 控制台中， https://console.cloud.google.com/iam-admin/serviceaccounts["前往服務帳戶頁面"^] 。
 . 點擊*選擇項目*，選擇您的項目，然後點擊*開啟*。
 . 若要建立服務帳戶，請執行下列操作：
@@ -40,7 +43,7 @@ NOTE: 您可以使用 Google Cloud 控制台或 gcloud CLI 來完成這些任務
 Google Cloud Console 根據此名稱產生服務帳戶 ID。如有必要，請編輯 ID - 您以後無法變更 ID。
 
 .. 點擊“創建並繼續”。
-.. 從角色清單中，選擇 * Google Cloud NetApp Volumes管理員* 或 *Google Cloud NetApp檢視者* 角色。
+.. 從角色清單中，選擇 *Google Cloud NetApp Volumes Admin* 或 *Google Cloud NetApp Volumes Viewer* 角色。
 .. 選擇*繼續*。
 +
 或者，您可以使用 gcloud CLI 來指派角色：
@@ -62,6 +65,10 @@ NetApp擁有的服務帳戶用於要求一個短期存取令牌，該令牌允�
 ----
 gcloud iam service-accounts add-iam-policy-binding <YOUR_SA_EMAIL> --member="serviceAccount:credentials-sa@wf-production-netapp.iam.gserviceaccount.com" --role="roles/iam.serviceAccountTokenCreator" --project=<YOUR_PROJECT_ID>
 ----
++
+
+NOTE: 對於測試環境，請使用 `credentials-sa@wf-staging-netapp.iam.gserviceaccount.com`而非正式環境服務帳戶。將上述命令中的 `--member`參數值替換為 `serviceAccount:credentials-sa@wf-staging-netapp.iam.gserviceaccount.com`。
+
 .. 點擊頁面底部的「完成」按鈕，然後繼續下一步。
 
 
@@ -71,7 +78,7 @@ gcloud iam service-accounts add-iam-policy-binding <YOUR_SA_EMAIL> --member="ser
 
 == 共享 VPC
 
-在每個將使用服務帳戶的其他 GCP 項目中，執行以下操作：
+在每個將要使用該服務帳號的其他 Google Cloud 專案中，請執行以下操作：
 
 . 在_IAM 頁面_中，從專案下拉選單中選擇共用 VPC 主機專案。
 . 按一下“新增主體”。

@@ -284,7 +284,6 @@
   <block id="3c031b939f6ec312ee601d021e7a6644" category="inline-link">NetApp Console</block>
   <block id="32b6c123fa99d96b6a9c161ccb30c98d" category="list-text">選擇*管理*，然後選擇*身分和存取*。</block>
   <block id="b23792ea5534855a59329a6f9910a2bb" category="section-title">共享 VPC</block>
-  <block id="bc469fcc20be5428ba31a5fd135dde8c" category="paragraph">在每個將使用服務帳戶的其他 GCP 項目中，執行以下操作：</block>
   <block id="d4f2a874cc586f639aad0321d236f3f1" category="list-text">在_IAM 頁面_中，從專案下拉選單中選擇共用 VPC 主機專案。</block>
   <block id="5080561aad5ebf08cf55792d34a54478" category="list-text">按一下“新增主體”。</block>
   <block id="46e1e93f6914b7f839eb907c33be43d8" category="list-text">在「新主體」欄位中，輸入您的服務帳戶的電子郵件地址。</block>
@@ -325,7 +324,6 @@
   <block id="119cf90c9716f71114dbe3b9e13911b6" category="list-text">允許冒充他人存取。</block>
   <block id="427af8bd46f9b056f4a0a09ce41c9a34" category="list-text">若要建立服務帳戶，請執行下列操作：</block>
   <block id="1483d48ab7fa569ffd416726e76ecf2d" category="list-text">點擊“創建並繼續”。</block>
-  <block id="c8b1bc399230d8dbc9a1deb5accc5450" category="list-text">從角色清單中，選擇 * Google Cloud NetApp Volumes管理員* 或 *Google Cloud NetApp檢視者* 角色。</block>
   <block id="136dc09835924029e4299fa28f17233d" category="list-text">選擇*繼續*。</block>
   <block id="b1d4def425f4f73f9bb2fa49bbccf78d" category="inline-link">建立自簽名 JSON Web Token (JWT)</block>
   <block id="c371b001e6cd3bcc89774b7969866dc2" category="list-text">授予此服務帳戶模擬存取權限：credentials-sa@wf-production-netapp.iam.gserviceaccount.com。有關詳細信息，請參閱<block ref="71438f0ee4109348e7b9ea2fd1b6bf55" category="inline-link-rx"></block>。</block>
@@ -353,4 +351,8 @@
   <block id="7019a39846e9a2c7f7a80eaba91e4a41" category="paragraph"><block ref="7019a39846e9a2c7f7a80eaba91e4a41" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">這是系統產生的與您的電子郵件地址對應的 ID。您可以在 *NSS Management* 頁面的 <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 選單中找到您的電子郵件地址。</block>
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">如果您需要刷新登入憑證令牌，<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 選單中還有一個「更新憑證」選項。</block>
+  <block id="2b5b357227eed641a3bd86d123eb3ac6" category="admonition">Google Cloud 專案權限變更可能需要幾分鐘才能生效。</block>
+  <block id="06a757f4492cc64438eda3ca3eb111b2" category="list-text">從角色清單中，選擇 *Google Cloud NetApp Volumes Admin* 或 *Google Cloud NetApp Volumes Viewer* 角色。</block>
+  <block id="34f0896664ad94ea24b488080bc90944" category="admonition">對於測試環境，請使用<block ref="2bebe1838cee8677133953ee797f4d0a" prefix=" " category="inline-code"></block>而非正式環境服務帳戶。將上述命令中的<block ref="e41d617895cb15aef8465d2dcb67fde1" prefix=" " category="inline-code"></block>參數值替換為<block ref="6b161ca4f09b2b5faab1957b52ed2c19" prefix=" " category="inline-code"></block>。</block>
+  <block id="e2bb3fd2b13dd9ef09db422aee6f7e01" category="paragraph">在每個將要使用該服務帳號的其他 Google Cloud 專案中，請執行以下操作：</block>
 </blocks>
