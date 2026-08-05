@@ -20,6 +20,7 @@ summary: 設定係統後，您可以查看您的 Google Cloud NetApp磁碟區。
 
 
 
+[[view-a-volume]]
 == 查看卷
 
 查看磁碟區的詳細信息，例如其名稱、數量、區域、容量、已使用容量和儲存池。
@@ -32,6 +33,7 @@ summary: 設定係統後，您可以查看您的 Google Cloud NetApp磁碟區。
 
 
 
+[[view-the-audit-log]]
 == 查看審核日誌
 
 您可以在時間軸中查看對磁碟區執行的所有操作。

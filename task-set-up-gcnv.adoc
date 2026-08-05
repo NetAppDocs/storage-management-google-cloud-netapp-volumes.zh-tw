@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-set-up-gcnv.html 
-keywords: setup, set up, api, service account, requirements, permissions, google cloud netapp volumes, gcnv, bluexp. netapp console 
+keywords: setup, set up, api, service account, requirements, permissions, google cloud netapp volumes, gcnv, bluexp, netapp console 
 summary: NetApp Console需要透過 Google Cloud 服務帳戶存取Google Cloud NetApp Volumes API 並獲得正確的權限。 
 ---
 = 設定Google Cloud NetApp Volumes
@@ -28,6 +28,7 @@ NOTE: 您可以使用 Google Cloud 控制台或 gcloud CLI 來完成這些任務
 
 
 
+[[set-up-a-service-account]]
 == 設定服務帳戶
 
 
@@ -76,6 +77,7 @@ NOTE: 對於測試環境，請使用 `credentials-sa@wf-staging-netapp.iam.gserv
 
 
 
+[[shared-vpc]]
 == 共享 VPC
 
 在每個將要使用該服務帳號的其他 Google Cloud 專案中，請執行以下操作：
@@ -104,6 +106,7 @@ gcloud projects add-iam-policy-binding <SHARED_VPC_HOST_PROJECT_ID> --member="se
 
 
 
+[[troubleshooting]]
 == 故障排除
 
 如果遇到錯誤，可能會強制執行 *iam.disableCrossProjectServiceAccountUsage* 政策。若要解決此問題，請執行下列操作：

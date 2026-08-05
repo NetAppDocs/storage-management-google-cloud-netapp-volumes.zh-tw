@@ -4,6 +4,7 @@
 
 
 
+[[google-cloud-platform-credentials-changes]]
 === Google Cloud Platform 憑證變更
 
 隨著客戶設定和授權的Google Cloud NetApp Volumes系統越來越多，憑證的管理方式也改變了。
