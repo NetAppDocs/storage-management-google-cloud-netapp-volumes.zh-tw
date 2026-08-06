@@ -66,10 +66,6 @@ NetApp擁有的服務帳戶用於要求一個短期存取令牌，該令牌允�
 ----
 gcloud iam service-accounts add-iam-policy-binding <YOUR_SA_EMAIL> --member="serviceAccount:credentials-sa@wf-production-netapp.iam.gserviceaccount.com" --role="roles/iam.serviceAccountTokenCreator" --project=<YOUR_PROJECT_ID>
 ----
-+
-
-NOTE: 對於測試環境，請使用 `credentials-sa@wf-staging-netapp.iam.gserviceaccount.com`而非正式環境服務帳戶。將上述命令中的 `--member`參數值替換為 `serviceAccount:credentials-sa@wf-staging-netapp.iam.gserviceaccount.com`。
-
 .. 點擊頁面底部的「完成」按鈕，然後繼續下一步。
 
 
